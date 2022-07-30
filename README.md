@@ -78,7 +78,7 @@ Below are the tables created from the above queries:
 <br />
 <br />
 
-My final task was to create a mentorship-eligibility table that holds the current employees who were born between January 1, 1965 and December 31, 1965. Provided below is the code that I used to create the table and export to a CSV named "mentorship_eligibility.csv".
+My final task was to create a mentorship-eligibility table that holds the current employees who were born between January 1, 1965 and December 31, 1965. Provided below is the code that I used to create the table and export to a CSV named "mentorship_eligibility.csv". Only 1,549 employees qualify for the mentorship program.
 
 <br />
 
@@ -100,7 +100,9 @@ My final task was to create a mentorship-eligibility table that holds the curren
 
 - Out of those employees leaving, there are 29,414 Senior Engineers, 28,254 Senior Staff, 14,222 Engineers, 12,243 Staff, 4,502 Technique Leaders, 1,761 Assistant Engineers, and 2 Managers.
 
+- PH has around 90,398 positions to fill if all eligible employees retire.
 
+- With only 1,549 employees eligible for the mentorship program, it is crucial for the future success of PH that they start training the replacements for when the majority of retirement eligible employees leave.
 
 
 
