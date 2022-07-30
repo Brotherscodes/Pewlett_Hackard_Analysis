@@ -35,7 +35,7 @@ Next, I retrieved the needed information from the "Employees" and "Titles" table
 
 <br />
 
-![RETIREMENT_TITLES](Images/retirement_titles_png.png)
+![RETIREMENT_TITLES](Images/retirement_titleS_png.png)
 
 <br />
 
@@ -96,7 +96,7 @@ My final task was to create a mentorship-eligibility table that holds the curren
 
 <br />
 
-- Referencing the retirement_titles_results above, Pewlett Hackard can now expect that they have 90,398 employees who may retire when matched to the critera they gave for retirement eligible emploees. 
+- Referencing the retirement_titles_results above, Pewlett Hackard can now expect that they have 90,398 employees who may retire when matched to the critera they gave for retirement eligible employees. 
 
 - Out of those employees leaving, there are 29,414 Senior Engineers, 28,254 Senior Staff, 14,222 Engineers, 12,243 Staff, 4,502 Technique Leaders, 1,761 Assistant Engineers, and 2 Managers.
 
