@@ -35,7 +35,7 @@ Next, I retrieved the needed information from the "Employees" and "Titles" table
 
 <br />
 
-![RETIREMENT_TITLES](Images/retirement_titleS_png.png)
+![RETIREMENT_TITLES](Images/retirement_titles_png.png)
 
 <br />
 
