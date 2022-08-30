@@ -2,7 +2,7 @@
 
 ## Overview: 
 
-With `SQL` and `pgAdmin` I helped Pewlett Hackard's Human Resources create an employee database with the six CSV files provided to us found in the "Data" folder on this repository. This database was used to determine how many employees in the next few years will be retiring and how many positions Pewlett Hackard should be prepared to fill.
+With `SQL` and `pgAdmin` I helped "Pewlett Hackard's" Human Resources create an employee database with the six CSV files provided to us found in the "Data" folder on this repository. This database was used to determine how many employees in the next few years will be retiring and how many positions "PH" should be prepared to fill.
 
 #
 
@@ -44,7 +44,7 @@ Next, I retrieved the needed information from the "Employees" and "Titles" table
 <br />
 
 
-Using the `DISTINCT ON` statement I retrieved the first occurence of the employee number for each set of rows defined by the ON ( ) clause. Sorting by the emp_no and in ascending order by the last date of their most recent title, I exported the table into the "unique_titles.csv" file. I then wrote another query found in the Employee_Database_Challange.sql file to retrieve the number of employees who are about to retire by their most recent job title in the "unique-titles.csv" file. Lastly, I exported the results to a new CSV file named "retiring_titles.csv" found in the "Data" folder. Below is the code I used in pgAdmin.
+Using the `DISTINCT ON` statement I retrieved the first occurrence of the employee number for each set of rows defined by the ON ( ) clause. Sorting by the emp_no and in ascending order by the last date of their most recent title, I exported the table into the "unique_titles.csv" file. I then wrote another query found in the Employee_Database_Challenge.sql file to retrieve the number of employees who are about to retire by their most recent job title in the "unique-titles.csv" file. Lastly, I exported the results to a new CSV file named "retiring_titles.csv" found in the "Data" folder. Below is the code I used in pgAdmin.
 
 <br />
 
@@ -96,7 +96,7 @@ My final task was to create a `mentorship-eligibility` table that holds the curr
 
 <br />
 
-- Referencing the retirement_titles_results above, Pewlett Hackard can now expect that they have 90,398 employees who may retire when matched to the critera they gave for retirement eligible employees. 
+- Referencing the retirement_titles_results above, "Pewlett Hackard" can now expect that they have 90,398 employees who may retire when matched to the criteria they gave for retirement eligible employees. 
 
 - Out of those employees leaving, there are 29,414 Senior Engineers, 28,254 Senior Staff, 14,222 Engineers, 12,243 Staff, 4,502 Technique Leaders, 1,761 Assistant Engineers, and 2 Managers.
 
@@ -115,7 +115,7 @@ My final task was to create a `mentorship-eligibility` table that holds the curr
 <br />
 
 - Provided Dataset:
-    - deparments.csv
+    - departments.csv
     - dept_emp.csv
     - dept_manager.csv
     - employees.csv
