@@ -2,7 +2,7 @@
 
 ## Overview: 
 
-With SQL and pgAdmin I helped Pewlett Hackard's Human Resources create an employee database with the six CSV files provided to us found in the "Data" folder on this repository. This database was used to determine how many employees in the next few years will be retiring and how many positions Pewlett Hackard should be prepared to fill.
+With `SQL` and `pgAdmin` I helped Pewlett Hackard's Human Resources create an employee database with the six CSV files provided to us found in the "Data" folder on this repository. This database was used to determine how many employees in the next few years will be retiring and how many positions Pewlett Hackard should be prepared to fill.
 
 #
 
@@ -18,7 +18,7 @@ First I needed to create the tables in pgAdmin and import the CSV files accordin
 
  #     
 
-As I analyzed the data I determined the Primary Key(s) and Foreign Key(s)(if present) for each table and assigned these keys as I created them. I then created an ERD "Entity Relationship Diagram" to better visualize the relationship between each table. The below ERD includes the data type and relational information within the database we have created.
+As I analyzed the data I determined the `Primary Key(s)` and `Foreign Key(s)`(if present) for each table and assigned these keys as I created them. I then created an `ERD` "Entity Relationship Diagram" to better visualize the relationship between each table. The below ERD includes the data type and relational information within the database we have created.
 
 <br />
 
@@ -31,7 +31,7 @@ As I analyzed the data I determined the Primary Key(s) and Foreign Key(s)(if pre
 <br />
 
 
-Next, I retrieved the needed information from the "Employees" and "Titles" table and created a new table with the INTO clause. The two tables were joined on their primary keys and filtered to retrieve only the employees with a date of birth between 1952 and 1955. The results were then exported into the "retirement_titles.csv" located in the "Data" folder. Below is a screenshot of the first ten rows of the table created when the query was ran before exporting into the designated CSV file.
+Next, I retrieved the needed information from the "Employees" and "Titles" table and created a new table with the `INTO` clause. The two tables were joined on their primary keys and filtered to retrieve only the employees with a date of birth between 1952 and 1955. The results were then exported into the "retirement_titles.csv" located in the `Data` folder. Below is a screenshot of the first ten rows of the table created when the query was ran before exporting into the designated CSV file.
 
 <br />
 
@@ -44,7 +44,7 @@ Next, I retrieved the needed information from the "Employees" and "Titles" table
 <br />
 
 
-Using the DISTINCT ON statement I retrieved the first occurence of the employee number for each set of rows defined by the ON ( ) clause. Sorting by the emp_no and in ascending order by the last date of their most recent title, I exported the table into the "unique_titles.csv" file. I then wrote another query found in the Employee_Database_Challange.sql file to retrieve the number of employees who are about to retire by their most recent job title in the "unique-titles.csv" file. Lastly, I exported the results to a new CSV file named "retiring_titles.csv" found in the "Data" folder. Below is the code I used in pgAdmin.
+Using the `DISTINCT ON` statement I retrieved the first occurence of the employee number for each set of rows defined by the ON ( ) clause. Sorting by the emp_no and in ascending order by the last date of their most recent title, I exported the table into the "unique_titles.csv" file. I then wrote another query found in the Employee_Database_Challange.sql file to retrieve the number of employees who are about to retire by their most recent job title in the "unique-titles.csv" file. Lastly, I exported the results to a new CSV file named "retiring_titles.csv" found in the "Data" folder. Below is the code I used in pgAdmin.
 
 <br />
 
@@ -78,7 +78,7 @@ Below are the tables created from the above queries:
 <br />
 <br />
 
-My final task was to create a mentorship-eligibility table that holds the current employees who were born between January 1, 1965 and December 31, 1965. Provided below is the code that I used to create the table and export to a CSV named "mentorship_eligibility.csv". Only 1,549 employees qualify for the mentorship program.
+My final task was to create a `mentorship-eligibility` table that holds the current employees who were born between January 1, 1965 and December 31, 1965. Provided below is the code that I used to create the table and export to a CSV named "mentorship_eligibility.csv". Only 1,549 employees qualify for the mentorship program.
 
 <br />
 
